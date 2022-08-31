@@ -4,7 +4,7 @@ import { useState } from "react";
 export default function Counter() {
   // let num = 0;
   // react에서 상태의 변화가 일어나야지만 화면을 다시 그린다.
-  // Hook 화면을 바로바로다시그리고싶으면 Hook써야함.
+  // Hook - 화면을 바로바로다시그리고싶으면 Hook써야함.
   // const [num, setNum] = useState(100); ---------1번방법
   const numState = useState(100); // 배열을 리턴한다. 1번요소는 기본값(100같은), 두번째요소는 상태를 바꿔주는 함수
   const num = numState[0];
